@@ -1,0 +1,840 @@
+*{
+	padding:0px;
+	margin:0px;
+	box-sizing:border-box;
+}
+
+html, body{
+	overflow-x:hidden;
+}
+
+img{
+	max-width:100%;
+	height:auto;
+}
+.navbar-brand img{
+	max-width:100%;
+	height:50px;
+}
+ .navbar{
+	    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 999;
+} 
+.nav-item{
+	margin-left:10px;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+	font-weight:600;
+	    color: #000;
+}
+.shadow__btn {
+  padding: 10px 20px;
+  border: none;
+  font-size: 13px;
+  color: #fff;
+  border-radius: 20px;
+  font-weight: 500;
+  text-transform: uppercase;
+  transition: 0.5s;
+  transition-property: box-shadow;
+}
+
+.shadow__btn {
+  background: rgb(0,140,255);
+  box-shadow: 0 0 25px rgb(0,140,255);
+}
+
+.shadow__btn:hover {
+  box-shadow: 0 0 5px rgb(0,140,255),
+              0 0 25px rgb(0,140,255),
+              0 0 50px rgb(0,140,255),
+              0 0 100px rgb(0,140,255);
+}
+
+
+/* home-section strat */
+
+.owl-carousel .owl-item img {
+    display: inline-block;
+    width: 100% !important;
+}
+ 
+.home-section{
+	padding:100px 0px 50px 0px;
+}
+.trading h6{
+	color:#0e83ee;
+	    font-family: sans-serif;
+    font-weight: 500;
+}
+.trading h1{
+	color:#26306a;
+	 font-family: sans-serif;
+    font-weight: 600;
+	margin-top:15px;
+}
+.trading p{
+	         font-size: 14px;
+	   font-family: sans-serif;
+	    color: #000000a8;
+	 	margin-top:10px;
+}
+
+
+.crypto{
+	margin-top:30px;
+}
+
+.button-2 h5{
+	color:#0e83ee;
+	    font-size: 16px;
+		margin:0;
+}
+
+.button-2:hover h5{
+	color:#fff;
+}
+.button-2{
+    padding: 12px 24px;
+    background-color: rgb(178, 58, 14);
+    border:1px solid #0e83ee;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.5s;
+	background-color:transparent;
+	border-radius:50px;
+}
+.button-2::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    background-color:#0e83ee;
+	border-radius:50px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.button-2:hover:before{
+    opacity: 1;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+.button-2:hover{
+    color: black;
+    z-index: 99;
+}
+
+
+.button-3 h5{
+	color:#0e83ee;
+	    font-size: 16px;
+		margin:0;
+}
+
+.button-3:hover h5{
+	color:#fff;
+}
+.button-3{
+    padding: 12px 24px;
+	margin-left:15px;
+    background-color: rgb(178, 58, 14);
+    border:1px solid #0e83ee;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    position: relative;
+    transition: all 0.5s;
+	background-color:transparent;
+	border-radius:50px;
+}
+.button-3::before{
+    content: "";
+    position: absolute;
+    width: 0px;
+    height: 100%;
+    background-color:  #0e83ee;
+	border-radius:50px;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.button-3:hover:before{
+    opacity: 1;
+    width: 100%;
+    z-index: -1;
+    height: 100%;
+}
+.button-3:hover{
+    color: black;
+    z-index: 99;
+}
+
+
+.companies{
+	margin-top:58px;
+}
+.companies h6{
+	      color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+	margin-bottom:15px;
+}
+.conve img{
+	max-width:100%;
+}
+
+  
+
+ 
+
+/* home section end */
+
+
+
+
+/* trading section start */
+
+.trading-2{
+	padding:50px 0px;
+	background:#fffdfa;
+}
+.don{
+margin-top:33px;
+}
+.steps{
+	    background: #ffff;
+
+}
+.steps img{
+	    max-width: 100%;
+    height: 70px;
+}
+.steps h2{
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+	margin-top:20px;
+}
+.few{
+	  padding: 12px 20px !important;
+	  background:#0e83ee;
+	  color:#ffff;
+	   font-size: 13px !important;
+    font-weight: 600;
+		border:1px solid #0e83ee;
+		margin-top:30px;
+
+	border-radius:50px;
+	transition:0.5s;
+}
+.few:hover{
+	background:transparent;
+	border:1px solid #0e83ee;
+	color:black;
+
+}
+
+.account{
+  display: flex;
+    padding: 40px 25px;	
+    background-color: azure;
+	border-radius:15px;
+	margin-bottom: 30px;
+		
+}
+
+
+.icon-1{
+	text-align:center;
+	
+}
+.icon-1 i {
+	color:#25a1ff;
+	    width: 50px;
+		    line-height: 50px;
+    height: 50px;
+    border-radius: 50px;
+	    background: #dfe8ef;
+		margin-right:5px;
+}
+
+.icon-2{
+	text-align:center;
+	
+}
+.icon-2 i {
+	color:#b290fe;
+	    width: 50px;
+		    line-height: 50px;
+    height: 50px;
+    border-radius: 50px;
+	    background: #fdf2ff;
+		margin-right:5px;
+}
+
+.icon-3{
+	text-align:center;
+	
+}
+.icon-3 i {
+	color:#ff5668;
+	    width: 50px;
+		    line-height: 50px;
+    height: 50px;
+    border-radius: 50px;
+	    background:#fff2f2;
+		margin-right:5px;
+}
+
+.icon-4{
+	text-align:center;
+	
+}
+.icon-4 i {
+	color:#ffc042;
+	    width: 50px;
+		    line-height: 50px;
+    height: 50px;
+    border-radius: 50px;
+	    background:#fdfee4;
+		margin-right:5px;
+}
+  
+.just h5{
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.just p{
+	 font-family: sans-serif;
+	 font-size:13px;
+	 margin-bottom:0px;
+}
+
+
+
+
+
+/* investment section start */
+
+.investment{
+	padding:50px 0px;
+}
+
+.bitcoin img{
+	       max-width: 100%;
+    height: auto;
+	padding:0px 20px;
+}
+
+.platform img{
+    max-width: 100%;
+height: 70px;
+margin-bottom:25px;
+}
+.platform h2{
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.platform span{
+	color:#26306a;
+	font-weight: 600;
+}
+.platform i{
+	color:#0e83ee;
+	    margin-left: -18px;
+}
+.platform p{
+	margin-top:20px;
+	    color: #000000ad;
+			font-weight: 600;
+			margin-left:21px;
+}
+
+
+
+/* end */
+
+
+/* benefits section start */
+.benefits-section{
+	padding:50px 0px;
+	background:#fffdfd;
+}
+
+.get-more img{
+	    max-width: 100%;
+    height: 70px;
+}
+.get-more  h2{
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+	margin-top:20px;
+}
+.get-more h6{
+	    color: #00000099;
+		margin-top:15px;
+}
+.few{
+	  padding: 12px 24px;
+	  background:#0e83ee;
+	  color:#ffff;
+	   font-size: 15px;
+    font-weight: 600;
+		border:1px solid #0e83ee;
+		margin-top:30px;
+
+	border-radius:50px;
+	transition:0.5s;
+}
+.few:hover{
+	background:transparent;
+	border:1px solid #0e83ee;
+	color:black;
+
+}
+.graph img {
+	max-width:100%;
+	height:363px;
+}
+
+/* b end */
+
+
+/* dtnamic section start */
+.dynamic{
+	padding:50px 0px;
+	    background: #f8eded;
+}
+ .user img {
+	     max-width: 100%;
+         height:auto;
+		 padding: 7px 62px 10px 60px
+ }
+ .prient{
+	 padding-top: 32px;
+ }
+ .prient img {
+	     max-width: 100%;
+    height: 60px;
+    margin-bottom: 15px;
+ }
+ .prient h2{
+	     color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+		margin-bottom:15px;
+ }
+ .prient p{
+	     font-family: sans-serif;
+    color: #000000a8;
+
+ }
+ 
+ .gallry{
+	 margin-top:20px;
+	     display: flex;
+    justify-content: space-between;
+ }
+ 
+ .low i{
+	 color:#0e83ee;
+ }
+ 
+ .low h6{
+	     color: #26306a;
+    font-family: sans-serif;
+    font-weight: 500;
+	    line-height: 23px;
+ }
+ 
+
+ 
+ /* big-reward section start */
+.big-reward{
+	padding:50px 0px;
+}
+ .big img{
+	    max-width: 100%;
+    height: 70px;
+}
+.big  h3{
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+	margin-top:20px;
+}
+.big h6{
+	    color: #00000099;
+		margin-top:15px;
+}
+.few{
+	  padding: 12px 24px;
+	  background:#0e83ee;
+	  color:#ffff;
+	   font-size: 15px;
+    font-weight: 600;
+		border:1px solid #0e83ee;
+		margin-top:30px;
+
+	border-radius:50px;
+	transition:0.5s;
+}
+.few:hover{
+	background:transparent;
+	border:1px solid #0e83ee;
+	color:black;
+
+}
+.offer img {
+	    max-width: 100%;
+}
+/* end */
+
+
+/* invested section start */
+.invested{
+	padding:40px 0px;
+}
+.million{
+	display: flex;
+    justify-content: space-between;
+}
+
+.fast{
+	    text-align: center;
+}
+
+.fast h2{
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+	    font-size: 40px;
+}
+.fast h5{
+	    color: #000000a3;
+		 font-family: sans-serif;
+		    font-size:13px;
+			   font-weight: 600;
+}
+
+ 
+
+/* end */
+
+
+
+/* slider-section start */
+
+.slider-section{
+	padding:50px 0px;
+	background:#fefdfc;
+}
+.seticified{
+	    padding: 33px 30px;
+    display: inline-block;
+    background: #e9e7e7;
+	border-radius:10px;
+	    margin-top: 30px;
+		transition:0.8s;
+}
+.seticified:hover{
+	background:white;
+}
+.seticified:hover p{
+	color:black;
+}
+
+
+.say{
+	text-align:center;
+}
+.say img{
+	      max-width: 100%;
+    height: 70px;
+    margin-bottom: 15px;
+}
+.say h2{
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.say p{
+	    font-family: sans-serif;
+       color: #000000a8;
+	    font-size: 15px;
+	margin-top:15px;
+}
+.watson img{
+	    height: 50px;
+      width: 50px;
+    border-radius: 50%;
+	margin-bottom:24px;
+}
+.elon{
+	display:inline-block;
+	margin-left:10px;
+}
+.seticified .elon h6{
+	       color: #0e83ee;
+    font-family: sans-serif;
+	margin:0;
+	font-size: 16px;
+}
+.seticified .elon p{
+		font-size: 13px;
+}
+.seticified h6{
+	    font-size: 22px;
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+.seticified p{
+	    font-family: sans-serif;
+    color: #000000a8;
+	font-size: 16px;
+}
+
+ .watson-two {
+	display: inline-block;
+    width: 10% !important;
+	
+}
+
+/* end */
+
+
+/* subscription section start */
+
+.subscription{
+	padding:50px 0px;
+}
+.month h6{
+	display:inline-block;
+	    color: #000000b0;
+    font-size: 17px;
+    font-weight: 600;
+}
+.month h5{
+	display:inline-block;
+	    color: #000000b0;
+    font-size: 17px;
+    font-weight: 600;
+}
+.month i{
+	    color: #26306a;
+	    margin: 5px;
+		font-size:18px;
+}
+
+/* end */
+
+/* stanerd section section start */
+.stanerd{
+	    padding: 50px 0px 0px 0px;
+}
+.basic-plan{
+	    border-bottom: 1px solid #00000014;
+}
+.basic-plan h6{
+	    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+	margin-bottom:10px;
+}
+.basic-plan h5{
+	font-size: 30px;
+		    color: #26306a;
+    font-family: sans-serif;
+    font-weight: 600;
+	margin-bottom:20px;
+}
+.basic-plan span{
+	    font-size: 13px;
+    color: #000000b8;
+	font-family: sans-serif;
+}
+.inspire{
+	margin-top:20px;
+}
+.inspire i{
+	    color: #0e83ee;
+}
+.stanerd .inspire p{
+	 color: #000000b8;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.continue{
+	    padding: 10px 50px;
+    border-radius: 40px;
+	color: #0e83ee;
+	 font-family: sans-serif;
+    font-weight: 500;
+	background:transparent;
+	border:1px solid #0e83ee;
+	 margin-top:20px;
+	 transition:0.5s;
+}
+
+.continue:hover{
+	background:#0e83ee;
+	color:black;
+}
+
+/* end */
+
+/* footer section start */
+.footer{
+	padding:50px 0px;
+}
+.adrees img{
+	    max-width: 100%;
+    height: 60px;
+}
+.footer-icon i{
+	color: #0e83ee;
+	    font-size: 30px;
+		margin-right: 10px;
+}
+.adrees p{
+	        color: #00000099;
+    font-family: sans-serif;
+    font-weight: 500;
+	margin: 35px 0px;
+}
+.link a{
+	    text-decoration: none
+		
+}
+.link h6{
+	 
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.link a h5{
+	 color: #00000099;
+    font-family: sans-serif;
+    font-weight: 500;
+	font-size:14px;
+	    line-height: 28px;
+		transition:0.5s;
+}
+
+.link a h5:hover{
+color: #26306a;}
+
+
+
+ @media screen and (max-width:767px){
+	.few{
+		  margin-bottom:25px;
+	}
+} 
+
+@media screen and (max-width:425px){
+	.fast h2{
+	      font-size:25px;
+	}
+} 
+
+
+
+ @media screen and (max-width:375px){
+	.gallry{
+	     display: block;
+	}
+} 
+
+@media screen and (max-width:345px){
+	.button-1 , .button-2{
+		     padding: 8px 12px;
+	}
+	.crypto{
+		    display: flex;
+	}
+}
+
+@media screen and (max-width:320px){
+	
+	.subscription {
+    padding-top: 0px;
+    }
+	 
+	 .link{
+		     margin-top: 16px;
+	 }
+	.footer{
+		 padding-top:0px;
+	}
+	.stanerd{
+		 padding-top:15px;
+	}
+	.platform h3{
+		 font-size:21px; 
+	}
+	
+	.investment{
+		padding:0px;
+	}
+	
+	.owl-carousel.owl-loaded {
+    margin-bottom: 20px;
+    display: block;
+}
+
+.platform{
+		margin-top:30px;
+	}
+	
+	.fast h2{
+	   font-size:20px;
+	}
+	.watson img{
+		    height: 30px;
+    width: 57px;
+	}
+
+}
+
+
+
+.bradcrumb-section{
+	background:#000;
+	color:#fff;
+	padding:150px 0px 100px 0;
+	text-align:center;
+}
+
+.breadcrumb{
+	display:flex;
+	justify-content:center;
+}
+.breadcrumb a{
+	text-decoration:none;
+	color:#0e83ee;
+	font-weight: 500;
+}
+.bradcrumb-section span{
+ color:#ffffff;
+}
+
+.bradcrumb-section .breadcrumb-item+.breadcrumb-item::before {
+    
+    color: #fff !important;
+}
+
+
